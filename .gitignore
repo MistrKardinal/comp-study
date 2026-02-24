@@ -1,0 +1,7 @@
+gifs/
+Loss test/
+*.pkl
+*.txt
+*.png
+*.gif
+__pycache__/
