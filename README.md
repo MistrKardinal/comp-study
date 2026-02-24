@@ -1,1 +1,1 @@
-# comp-study
+# The description of code
