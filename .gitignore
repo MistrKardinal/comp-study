@@ -5,3 +5,4 @@ Loss test/
 *.png
 *.gif
 __pycache__/
+.vscode/
