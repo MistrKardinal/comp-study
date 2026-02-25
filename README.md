@@ -1,14 +1,13 @@
-# The description of code
-SPDC.ipynb - основной файл, где проводились вычисления c помощью тензорных сетей.
-Временная эволюция была вычислена с помощью скрипта evolute10() из модуля MatrixProductFunctions.
-Динамика фотонов в модах была вычислена с помощью функции calculate_photon_number_in_set_of_solutions() из модуля MatrixProductFunctions.
+# File Description
+## SPDC.ipynb
+This is the primary notebook in which simulations based on tensor network methods were performed. The time evolution was computed using the evolute10() routine from the MatrixProductFunctions module. The photon number dynamics in the modes were evaluated using the function calculate_photon_number_in_set_of_solutions() from the same module.
 
-SPDC_in_photon_basis.ipynb - файл, где проводились вычисления в Фоковском базисе для выполнения сравнения с случае со слабой модой накачки.
-Функция, с помощью которой были получены решения - compute_dynamics_in_Fock_basis().
-Динамика фотонов в модах была вычислена с помощью функции calculate_photon_dynamics_in_set_of_solutions_in_Fock_b()
+## SPDC_in_photon_basis.ipynb
+This notebook contains calculations performed in the Fock basis, intended for comparison with the case of a weak pump mode. The system dynamics were obtained using the function compute_dynamics_in_Fock_basis(). The photon dynamics in the modes were computed using the function calculate_photon_dynamics_in_set_of_solutions_in_Fock_b().
 
-MatrixProductFunctions - основной модуль с функциями, используемыми при вычислениях с помощью тензорных сетей.
+## MatrixProductFunctions.py
+This module contains the core functions used for tensor network simulations, including routines for time evolution, photon number evaluation, and reduced density matrix calculations.
 
-Data_for_article.ipynb - файл, где строятся все графики статьи. В этом же файле вычисляются данные для графиков картинок Fig.2(c,d), Fig.3(a,b).
-Матрицы плотности вычисляются с помощью функции find_reduced_density_matrix2() из модуля MatrixProductFunctions.
+## Data_for_article.ipynb
+This notebook is used to generate all figures presented in the article. In particular, the data for Fig. 2(c,d) and Fig. 3(a,b) are computed here. Reduced density matrices are calculated using the function find_reduced_density_matrix2() from the MatrixProductFunctions module.
 
